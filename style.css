@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+    background-color: rgb(247, 240, 232);
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+button {
+    border: none;
+    font-size: 50px;
+    background-color: rgb(247, 240, 232);
+}
+
+.newBox {
+    width: 275px;
+    min-height: 100px;
+    background-color: white; 
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    float: left;
+}
+
+.sisu {
+    border: none;
+    width: 85%;
+}
+
+#deleteButton {
+    border: none;
+    background-color: white;
+}
+
+#title {
+    text-align: left;
+    margin-top: 20px;
+    outline: none;
+}
+
+#divpask {
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding-bottom: 20px;
+    outline: none;
+}
+
+[contentEditable=true]:empty:not(:focus):before{
+    content:attr(data-text);
+    color: grey;
+}
